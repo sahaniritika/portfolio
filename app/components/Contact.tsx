@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Mail, Linkedin, Send, MessageSquare } from 'lucide-react';
+import { Mail, MessageSquare } from 'lucide-react';
 
 export default function Contact() {
   return (
@@ -65,6 +65,3 @@ export default function Contact() {
           </div>
         </motion.div>
       </div>
-    </section>
-  );
-}
